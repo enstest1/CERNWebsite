@@ -1,97 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>CERN NFT Project</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="app.css">
-	<style>
-		.iframe-container {
-			display: flex;
-			justify-content: center;
-			margin-top: 50px;
-			margin-bottom: 50px;
-		}
-		.logo {
-			text-align: center;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERN NFT Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="logo">
-				<a href="#">CERN</a>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">NFT Collection</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Discord</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-
-	<main>
-		<section class="hero-section">
-			<div class="container">
-				<img src="alien-lab.jpg" alt="Alien Lab">
-				<h1>interdimensional domination</h1>
-				<p class="tagline">Explore the mysteries of the universe with our unique NFT collection.</p>
-				<button class="cta-button">View Collection</button>
-			</div>
-		</section>
-		
-		<div class="iframe-container">
-			<iframe
-	    		src="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xb0C36460af9501FC5DC2553BE0a6645c7E3104D4&chain=%7B%22name%22%3A%22Goerli%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fgoerli.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Goerli+Ether%22%2C%22symbol%22%3A%22ETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22gor%22%2C%22chainId%22%3A5%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22goerli%22%7D&theme=dark&primaryColor=blue"
-	   			width="600px"
-	    		height="600px"
-	    		style="max-width:100%;"
-	    		frameborder="0"
-	    		></iframe>
-	    </div>
-		
-		<section class="about-section">
-			<div class="container">
-				<h2>About the Project</h2>
-				<p>The CERN NFT Project is a unique collection of interdimensional aliens that have been discovered using advanced technology at CERN. These aliens are from parallel universes and have unique abilities that have never been seen before.</p>
-				
-				<div class="image-grid">
-					<div class="image" style="display: inline-block; width: 30%;">
-						<img src="alien-1.jpg" alt="Alien 1">
-					</div>
-					<div class="image" style="display: inline-block; width: 30%;">
-						<img src="alien-2.jpg" alt="Alien 2">
-					</div>
-					<div class="image" style="display: inline-block; width: 30%;">
-						<img src="alien-3.jpg" alt="Alien 3">
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="contact-section">
-			<div class="container">
-				<h2>Contact Us</h2>
-				<p>Have any questions or feedback for us? Reach out to us through the form below.</p>
-				<form>
-					<label for="name">Name</label>
-					<input type="text" id="name" name="name" required>
-					
-					<label for="email">Email</label>
-					<input type="email" id="email" name="email" required>
-					
-					<label for="message">Message</label>
-					<textarea id="message" name="message" required></textarea>
-					
-					<button class="submit-button" type="submit">Send</button>
-				</form>
-			</div>
-		</section>
-
-		<footer>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="CERN NFT Project">
+                <h1>CERN NFT Project</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h2>About CERN NFT Project</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit, risus at auctor tristique, libero tortor bibendum velit, sit amet dapibus enim est ut risus. Suspendisse imperdiet tellus at ipsum finibus vehicula.</p>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Meet Our Team</h2>
+                <div class="team-members">
+                    <div class="team-member">
+                        <img src="images/team-member1.jpg" alt="Team Member 1">
+                        <h3>John Doe</h3>
+                        <p>Co-Founder</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/team-member2.jpg" alt="Team Member 2">
+                        <h3>Jane Smith</h3>
+                        <p>Lead Developer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/team-member3.jpg" alt="Team Member 3">
+                        <h3>Bob Johnson</h3>
+                        <p>Marketing Director</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2>Our Gallery</h2>
+                <div class="gallery">
+                    <div class="nft">
+                        <img src="images/nft1.jpg" alt="NFT 1">
+                        <div class="nft-content">
+                            <h3>NFT Title Goes Here</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit, risus at auctor tristique, libero tortor bibendum velit, sit amet dapibus enim est ut risus. Suspendisse imperdiet tellus at ipsum finibus vehicula.</p>
+                            <a href="#" class="btn">Buy NFT</a>
+                        </div>
+                    </div>
+                    <div class="nft">
+                        <img src="images/nft2.jpg" alt="NFT 2">
+                        <div class="nft-content">
+                            <h3>NFT Title Goes Here</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla blandit,
