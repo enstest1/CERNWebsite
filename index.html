@@ -9,18 +9,9 @@
 		.iframe-container {
 			display: flex;
 			justify-content: center;
+			margin-top: 50px;
+			margin-bottom: 50px;
 		}
-        .buffer {
-            height: 50px;
-        }
-        .image-container {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 50px;
-        }
-        .image {
-            width: 30%;
-        }
 	</style>
 </head>
 <body>
@@ -53,38 +44,15 @@
 			</div>
 		</section>
 		
-		<div class="buffer"></div>
+		<div class="iframe-container">
+			<iframe
+	    		src="https://gateway.ipfscdn.io/ipfs/QmbAgC8YwY36n8H2kuvSWsRisxDZ15QZw3xGZyk9aDvcv7/erc721.html?contract=0xb0C36460af9501FC5DC2553BE0a6645c7E3104D4&chain=%7B%22name%22%3A%22Goerli%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fgoerli.rpc.thirdweb.com%2F5a9bc94b87f7cbbbfbbc234bf1e07f0adf5f3cf3012c9f26f9fc9820d64df93a%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Goerli+Ether%22%2C%22symbol%22%3A%22ETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22gor%22%2C%22chainId%22%3A5%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22goerli%22%7D&theme=dark&primaryColor=blue"
+	   			width="600px"
+	    		height="600px"
+	    		style="max-width:100%;"
+	    		frameborder="0"
+	    		></iframe>
+	    </div>
 
 		<section class="about-section">
 			<div class="container">
-				<h2>About the Project</h2>
-				<p>The CERN NFT Project is a collection of non-fungible tokens that represent the mysteries of the universe. Each NFT is unique and represents a different concept related to space and science.</p>
-				<p>The project was created by a team of scientists and artists at CERN who wanted to find a new way to share their research and discoveries with the public. By creating these NFTs, they hope to inspire curiosity and interest in science and the universe.</p>
-			</div>
-		</section>
-
-		<div class="buffer"></div>
-
-		<div class="image-container">
-			<div class="image">
-				<img src="nft-image1.jpg" alt="NFT Image 1">
-			</div>
-			<div class="image">
-				<img src="nft-image2.jpg" alt="NFT Image 2">
-			</div>
-			<div class="image">
-				<img src="nft-image3.jpg" alt="NFT Image 3">
-			</div>
-		</div>
-
-		<div class="buffer"></div>
-
-		<section class="contact-section">
-			<div class="container">
-				<h2>Contact Us</h2>
-				<p>For more information about the CERN NFT Project or to get in touch with the team, please fill out the form below:</p>
-				<form>
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="name"><br><br>
-					<label for="email">Email:</
-
