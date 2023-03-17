@@ -47,6 +47,7 @@ header {
 .logo {
 	font-weight: 600;
 	font-size: 36px;
+	animation: pulse 2s infinite;
 }
 
 .logo a {
@@ -94,6 +95,10 @@ nav ul li a:hover {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .hero-section h1 {
@@ -132,6 +137,7 @@ nav ul li a:hover {
 	color: #333;
 	text-shadow: 3px 3px 3px #ccc;
 	transform: scale(1.1);
+	box-shadow: 2px 2px 5px #ccc;
 }
 
 /* About Section */
@@ -142,146 +148,4 @@ nav ul li a:hover {
 
 .about-section h2 {
 	font-size: 48px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	text-shadow: 2px 2px 2px #ccc;
-}
-
-.about-section p {
-	font-size
-	18px;
-	font-weight: 400;
-	margin-bottom: 40px;
-	text-shadow: 1px 1px 1px #ccc;
-}
-
-/* NFT Collection Section */
-.nft-collection-section {
-	padding: 80px 0;
-	text-align: center;
-}
-
-.nft-collection-section h2 {
-	font-size: 48px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	text-shadow: 2px 2px 2px #ccc;
-}
-
-.nft-collection-section p {
-	font-size: 18px;
-	font-weight: 400;
-	margin-bottom: 40px;
-	text-shadow: 1px 1px 1px #ccc;
-}
-
-.nft-collection-section .cta-button {
-	padding: 20px 40px;
-	font-size: 24px;
-}
-
-.nft-collection-section .cta-button:hover {
-	transform: scale(1.1);
-}
-
-/* Footer */
-	footer {
-	background-color: #333;
-	color: #fff;
-	padding: 20px 0;
-	text-align: center;
-}
-
-footer .logo {
-	font-weight: 600;
-	font-size: 36px;
-	margin-bottom: 10px;
-	text-shadow: 2px 2px 2px #ccc;
-}
-
-footer nav ul li a {
-	color: #fff;
-	font-weight: 500;
-	padding: 10px;
-	border-radius: 5px;
-	transition: all 0.3s ease;
-	text-shadow: 1px 1px 1px #ccc;
-}
-
-footer nav ul li a:hover {
-	background-color: #fff;
-	color: #333;
-	text-shadow: 2px 2px 2px #ccc;
-}
-
-.footer-images {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 40px;
-}
-
-.footer-images img {
-	height: 80px;
-	width: 80px;
-	border-radius: 50%;
-	box-shadow: 2px 2px 2px #ccc;
-	margin: 0 20px;
-	transition: all 0.3s ease;
-}
-
-.footer-images img:hover {
-	transform: rotate(360deg);
-	box-shadow: 3px 3px 3px #ccc;
-}
-
-@media (max-width: 767px) {
-	header {
-	padding: 20px;
-	flex-direction: column;
-}
-	
-.logo {
-	margin-bottom: 20px;
-	font-size: 24px;
-	text-align: center;
-}
-
-nav ul {
-	flex-direction: column;
-}
-
-nav ul li {
-	margin: 10px 0;
-}
-
-.hero-section h1 {
-	font-size: 48px;
-}
-
-.tagline {
-	font-size: 24px;
-}
-
-.cta-button {
-	padding: 10px 20px;
-	font-size: 18px;
-}
-
-.about-section h2,
-.nft-collection-section h2 {
-	font-size: 36px;
-}
-
-.about-section p,
-.nft-collection-section p {
-	font-size: 16px;
-}
-
-.footer-images {
-	flex-direction: column;
-}
-
-.footer-images img {
-	margin: 20px 0;
-}
+	font
