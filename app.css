@@ -39,9 +39,9 @@ header {
 	width: 100%;
 	z-index: 999;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
-	padding: 20px 40px;
+	padding: 20px;
 }
 
 .logo {
@@ -95,10 +95,6 @@ nav ul li a:hover {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 }
 
 .hero-section h1 {
@@ -137,7 +133,6 @@ nav ul li a:hover {
 	color: #333;
 	text-shadow: 3px 3px 3px #ccc;
 	transform: scale(1.1);
-	box-shadow: 2px 2px 5px #ccc;
 }
 
 /* About Section */
@@ -148,4 +143,10 @@ nav ul li a:hover {
 
 .about-section h2 {
 	font-size: 48px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px 2px #ccc;
+}
+
+.about-section p {
 	font
