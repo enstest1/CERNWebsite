@@ -31,7 +31,9 @@ a:hover {
 
 /* Header */
 header {
-	background-color: #F85DFF;
+	background: linear-gradient(to right, rgba(250, 144, 255, 0.8), rgba(110, 29, 161, 0.8)), url('https://us.123rf.com/450wm/drmicrobe/drmicrobe2301/drmicrobe230100962/196954113-humanoid-alien-working-in-scientific-research-laboratory-illustration.jpg?ver=6') center center/cover no-repeat;
+	background-blur: 10px;
+	border-radius: 20px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	position: fixed;
 	top: 0;
@@ -86,9 +88,6 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero-section {
-	background-image: url('https://us.123rf.com/450wm/drmicrobe/drmicrobe2301/drmicrobe230100962/196954113-humanoid-alien-working-in-scientific-research-laboratory-illustration.jpg?ver=6');
-	background-size: cover;
-	background-position: center center;
 	min-height: 500px;
 	display: flex;
 	flex-direction: column;
@@ -129,19 +128,4 @@ nav ul li a:hover {
 
 .cta-button:hover {
 	background-color: #ccc;
-	color: #F85DFF;
-	text-shadow: 3px 3px 3px #fff;
-	transform: scale(1.1);
-}
-
-/* About Section */
-.about-section {
-	padding: 80px 0;
-	text-align: center;
-}
-
-.about-section h2 {
-	font-size: 48px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	text-shadow: 2px 2
+	color
