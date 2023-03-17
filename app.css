@@ -1,131 +1,172 @@
-/* Reset Styles */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-/* Global Styles */
 body {
-	font-family: 'Poppins', sans-serif;
-	color: #333;
-	background-color: #f5f5f5;
-	font-size: 16px;
-	line-height: 1.5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-a {
-	color: #333;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #111;
-}
-
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 20px;
-}
-
-/* Header */
 header {
-	background: linear-gradient(to right, rgba(250, 144, 255, 0.8), rgba(110, 29, 161, 0.8)), url('https://us.123rf.com/450wm/drmicrobe/drmicrobe2301/drmicrobe230100962/196954113-humanoid-alien-working-in-scientific-research-laboratory-illustration.jpg?ver=6') center center/cover no-repeat;
-	background-blur: 10px;
-	border-radius: 20px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 999;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-.logo {
-	font-weight: 600;
-	font-size: 36px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo a {
-	color: #fff;
-	text-shadow: 2px 2px 2px #ccc;
-	transition: all 0.3s ease;
+nav .logo {
+    display: flex;
+    align-items: center;
 }
 
-.logo a:hover {
-	color: #ccc;
-	text-shadow: 3px 3px 3px #fff;
+nav .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
-	list-style: none;
-	display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li {
-	margin: 0 10px;
+nav li {
+    display: inline-block;
+    margin-left: 20px;
 }
 
-nav ul li a {
-	color: #fff;
-	font-weight: 500;
-	padding: 10px;
-	border-radius: 5px;
-	transition: all 0.3s ease;
-	text-shadow: 1px 1px 1px #ccc;
+nav li:first-child {
+    margin-left: 0;
 }
 
-nav ul li a:hover {
-	background-color: #ccc;
-	color: #F85DFF;
-	text-shadow: 2px 2px 2px #fff;
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.3s ease;
 }
 
-/* Hero Section */
-.hero-section {
-	min-height: 500px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+nav li a:hover {
+    color: #f39c12;
 }
 
-.hero-section h1 {
-	font-size: 72px;
-	font-weight: 700;
-	color: #F85DFF;
-	margin-bottom: 20px;
-	text-shadow: 2px 2px 2px #ccc;
+main {
+    margin-top: 100px;
 }
 
-.tagline {
-	font-size: 36px;
-	font-weight: 400;
-	color: #F85DFF;
-	margin-bottom: 30px;
-	text-shadow: 1px 1px 1px #ccc;
+section {
+    padding: 50px 0;
+    position: relative;
 }
 
-.cta-button {
-	background-color: #F85DFF;
-	color: #fff;
-	padding: 20px 40px;
-	border-radius: 30px;
-	font-size: 24px;
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	border: none;
-	cursor: pointer;
-	transition: all 0.3s ease;
-	text-shadow: 2px 2px 2px #ccc;
+section:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(images/section-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
 }
 
-.cta-button:hover {
-	background-color: #ccc;
-	color
+section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.nft {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nft img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.nft:hover img {
+    transform: scale(1.1);
+}
+
+.nft-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding:
